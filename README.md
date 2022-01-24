@@ -1,22 +1,18 @@
 # prep code Challenges
 
-this repo contains prep code challenges
+## How to Install and Run the Project
 
-### to pull the test for specific challenges, run:
+- Enter this command `npm install` ,to install some libraries that we'll use to help you test out your code.
+- To retrieve the code challenge from problems space enter `npm run pull-challenge <challenge-number>`
 
-```bash
-npm run pull-challenge <challenge-number>
-```
+  - For example:
 
-example:
+    ```bash
+    npm run pull-challenge 06
+    ```
 
-```bash
-npm run pull-challenge 06
-```
-
-### Tests:
-
-- Run your tests from the root of `prep-challenges` repo with:
+- To execute the tests run your the test from the root of `prep-challenges` repo :
 
   - to run all tests:`npm test`
-  - to run specific tests: `npm test <test-name>` exampel: `npm test challenges-06`
+  - to run specific tests: `npm test <test-name>`
+    - Fore example: `npm test challenges-06`
